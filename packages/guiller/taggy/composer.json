@@ -1,0 +1,21 @@
+{
+    "name": "guiller/taggy",
+    "description": "An eloquent tagging package for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guiller",
+            "email": "guillermo.halcyondigital@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Guiller\\Taggy\\" : "src"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/database": ">= 5.0",
+        "illuminate/support": ">= 5.0"
+    }
+}
