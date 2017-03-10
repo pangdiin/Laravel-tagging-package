@@ -167,6 +167,7 @@ return [
          * Package Service Providers...
          */
         Laravel\Tinker\TinkerServiceProvider::class,
+        Guiller\Taggy\TaggyServiceProvider::class,
 
         /*
          * Application Service Providers...
