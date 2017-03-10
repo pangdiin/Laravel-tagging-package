@@ -1,7 +1,11 @@
 <?php
 
-Route::get('/', function () {
-    $tags = \Guiller\Taggy\Models\Tag::get();
+use App\Lesson;
 
-    dd($tags);
+Route::get('/', function () {
+    
+	$lesson = Lesson::find(1);
+	
+	dd($lesson->tags);
+
 });
